@@ -1,0 +1,1638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C435DB52F2E667091BDE26 /* Pods_MyCloudMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D292B7AC1EDD18E492AF14C6 /* Pods_MyCloudMusic.framework */; };
+		563D400203E28E12E7436B7E /* Pods_MyCloudMusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39518CB2A7EFC26AD2CC5B6 /* Pods_MyCloudMusicTests.framework */; };
+		600F03B128BBAC94007F10F8 /* BaseMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600F03B028BBAC94007F10F8 /* BaseMainController.m */; };
+		600F03B528BBB18D007F10F8 /* SuperWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600F03B428BBB18D007F10F8 /* SuperWebController.m */; };
+		6010428428A94CED00A8B4BD /* SheetGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6010428328A94CED00A8B4BD /* SheetGroupCell.m */; };
+		6010428728A94DF500A8B4BD /* SheetData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6010428628A94DF500A8B4BD /* SheetData.m */; };
+		6010428C28A94E9500A8B4BD /* Sheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6010428B28A94E9500A8B4BD /* Sheet.m */; };
+		601AFA1D289F8D10000EB528 /* DefaultRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AFA1C289F8D10000EB528 /* DefaultRepository.m */; };
+		601AFA21289FA0E0000EB528 /* PlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AFA20289FA0E0000EB528 /* PlaceholderView.m */; };
+		601AFA26289FA1F9000EB528 /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AFA25289FA1F9000EB528 /* StringUtil.m */; };
+		601AFA2B289FA40C000EB528 /* SuperToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AFA2A289FA40C000EB528 /* SuperToast.m */; };
+		601AFA2E289FA806000EB528 /* TipUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AFA2D289FA806000EB528 /* TipUtil.m */; };
+		601AFA33289FC13D000EB528 /* DiscoveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AFA32289FC13D000EB528 /* DiscoveryController.m */; };
+		601AFA38289FC1B3000EB528 /* VideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AFA37289FC1B3000EB528 /* VideoController.m */; };
+		601AFA3E289FC208000EB528 /* MeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AFA3D289FC208000EB528 /* MeController.m */; };
+		601AFA42289FC25B000EB528 /* FeedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AFA41289FC25B000EB528 /* FeedController.m */; };
+		601AFA48289FC2A1000EB528 /* RoomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AFA47289FC2A1000EB528 /* RoomController.m */; };
+		601AFA4D289FC305000EB528 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AFA4C289FC305000EB528 /* MainController.m */; };
+		601AFA50289FC672000EB528 /* UIImage+SuperUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AFA4F289FC672000EB528 /* UIImage+SuperUI.m */; };
+		601AFA56289FEDE1000EB528 /* Ad.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AFA55289FEDE1000EB528 /* Ad.m */; };
+		601AFA5B289FEE95000EB528 /* BannerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AFA5A289FEE95000EB528 /* BannerData.m */; };
+		601AFA63289FF4E9000EB528 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AFA62289FF4E9000EB528 /* BaseTableViewCell.m */; };
+		601AFA66289FF67D000EB528 /* BannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AFA65289FF67D000EB528 /* BannerCell.m */; };
+		601AFA6928A005BB000EB528 /* ResourceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 601AFA6828A005BB000EB528 /* ResourceUtil.m */; };
+		6022784E28BA782300273A49 /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6022784D28BA782300273A49 /* ImageUtil.m */; };
+		6022790D28BB407400273A49 /* SongGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6022790C28BB407400273A49 /* SongGroupCell.m */; };
+		6022791028BB418100273A49 /* SongData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6022790F28BB418100273A49 /* SongData.m */; };
+		6022791728BB420C00273A49 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 6022791628BB420C00273A49 /* Song.m */; };
+		6022791A28BB440100273A49 /* DiscoverySongCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6022791928BB440100273A49 /* DiscoverySongCell.m */; };
+		6022791D28BB4C5B00273A49 /* BaseTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6022791C28BB4C5B00273A49 /* BaseTableViewHeaderFooterView.m */; };
+		6022792228BB52E800273A49 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 6022792128BB52E800273A49 /* User.m */; };
+		6039398328B2263100D9105D /* itemTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039398228B2263100D9105D /* itemTitleView.m */; };
+		603939E528B24D6E00D9105D /* SheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 603939E428B24D6E00D9105D /* SheetCell.m */; };
+		603939E828B24D8F00D9105D /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 603939E728B24D8F00D9105D /* BaseCollectionViewCell.m */; };
+		60836456289AD4A6004B95AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60836455289AD4A6004B95AF /* AppDelegate.m */; };
+		6083645C289AD4A6004B95AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6083645B289AD4A6004B95AF /* ViewController.m */; };
+		60836461289AD4A7004B95AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60836460289AD4A7004B95AF /* Assets.xcassets */; };
+		60836464289AD4A7004B95AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60836462289AD4A7004B95AF /* LaunchScreen.storyboard */; };
+		60836467289AD4A7004B95AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60836466289AD4A7004B95AF /* main.m */; };
+		60836471289AD4A7004B95AF /* MyCloudMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60836470289AD4A7004B95AF /* MyCloudMusicTests.m */; };
+		6083647B289AD4A7004B95AF /* MyCloudMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6083647A289AD4A7004B95AF /* MyCloudMusicUITests.m */; };
+		6083647D289AD4A7004B95AF /* MyCloudMusicUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6083647C289AD4A7004B95AF /* MyCloudMusicUITestsLaunchTests.m */; };
+		6083648E289AD660004B95AF /* SplashController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6083648D289AD660004B95AF /* SplashController.m */; };
+		60836494289ADAC2004B95AF /* SuperdateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 60836493289ADAC2004B95AF /* SuperdateUtil.m */; };
+		60836499289ADC4F004B95AF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6083649B289ADC4F004B95AF /* Localizable.strings */; };
+		608364A0289ADDCA004B95AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 608364A2289ADDCA004B95AF /* InfoPlist.strings */; };
+		608364FD289B6F82004B95AF /* R.m in Sources */ = {isa = PBXBuildFile; fileRef = 608364FC289B6F82004B95AF /* R.m */; };
+		608EB3A428A00D0500D40463 /* BannerClickEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 608EB3A328A00D0500D40463 /* BannerClickEvent.m */; };
+		608EB3A828A0142E00D40463 /* UIView+SuperUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 608EB3A728A0142E00D40463 /* UIView+SuperUI.m */; };
+		608EB3AB28A08A1200D40463 /* DiscoveryButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 608EB3AA28A08A1200D40463 /* DiscoveryButtonCell.m */; };
+		608EB3AE28A08B8900D40463 /* IconTitleButtonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 608EB3AD28A08B8900D40463 /* IconTitleButtonData.m */; };
+		608EB3B128A08BC500D40463 /* ButtonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 608EB3B028A08BC500D40463 /* ButtonData.m */; };
+		608EB3B528A08E2200D40463 /* DiscoveryButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 608EB3B428A08E2200D40463 /* DiscoveryButtonView.m */; };
+		60B64367289E5A4F00A4F66D /* ViewFactoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B64366289E5A4F00A4F66D /* ViewFactoryUtil.m */; };
+		60B6436B289E8BD600A4F66D /* DefaultPreferenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B6436A289E8BD600A4F66D /* DefaultPreferenceUtil.m */; };
+		60B64371289E903100A4F66D /* GuideController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B64370289E903100A4F66D /* GuideController.m */; };
+		60B64374289EB2CC00A4F66D /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B64373289EB2CC00A4F66D /* Config.m */; };
+		60B64378289EC22D00A4F66D /* MSNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B64376289EC22D00A4F66D /* MSNetwork.m */; };
+		60B6437C289ECF0B00A4F66D /* SuperHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B6437B289ECF0B00A4F66D /* SuperHttpUtil.m */; };
+		60B64382289ED07300A4F66D /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B64381289ED07300A4F66D /* BaseResponse.m */; };
+		60B64386289ED13000A4F66D /* SuperBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B64385289ED13000A4F66D /* SuperBase.m */; };
+		60B64389289ED14700A4F66D /* Meta.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B64388289ED14700A4F66D /* Meta.m */; };
+		60B6438D289ED97600A4F66D /* SuperBaseId.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B6438C289ED97600A4F66D /* SuperBaseId.m */; };
+		60B64390289F79C800A4F66D /* SuperCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B6438F289F79C800A4F66D /* SuperCommon.m */; };
+		60B64393289F7A7800A4F66D /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B64392289F7A7800A4F66D /* Video.m */; };
+		60E377BA28BB75E9005EDCF0 /* DiscoveryFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E377B928BB75E9005EDCF0 /* DiscoveryFooterCell.m */; };
+		60E377BD28BB7982005EDCF0 /* FooterData.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E377BC28BB7982005EDCF0 /* FooterData.m */; };
+		60E377C128BB7B61005EDCF0 /* ClickEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E377C028BB7B61005EDCF0 /* ClickEvent.m */; };
+		60E377C528BB7E70005EDCF0 /* SuperToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E377C428BB7E70005EDCF0 /* SuperToolbarView.m */; };
+		60E377C828BB7FE9005EDCF0 /* BaseTitleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E377C728BB7FE9005EDCF0 /* BaseTitleController.m */; };
+		60EB7924289CC14900477CD5 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB7923289CC14900477CD5 /* UIColor+Hex.m */; };
+		60EB7927289CC17B00477CD5 /* UIColor+SuperUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB7926289CC17B00477CD5 /* UIColor+SuperUI.m */; };
+		60EB792C289CC20600477CD5 /* UIColor+config.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB792B289CC20600477CD5 /* UIColor+config.m */; };
+		60EB792F289CC28800477CD5 /* UIColor+Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB792E289CC28800477CD5 /* UIColor+Theme.m */; };
+		60EB798E289E1DD800477CD5 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB798D289E1DD800477CD5 /* BaseController.m */; };
+		60EB7991289E1DEE00477CD5 /* BaseCommonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB7990289E1DEE00477CD5 /* BaseCommonController.m */; };
+		60EB7994289E1E0C00477CD5 /* BaseLogicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB7993289E1E0C00477CD5 /* BaseLogicController.m */; };
+		60EB7997289E55CB00477CD5 /* TermServiceDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB7996289E55CB00477CD5 /* TermServiceDialogController.m */; };
+		723614C0D745FA9F5C3784D6 /* Pods_MyCloudMusic_MyCloudMusicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E700DD546B16889305E30159 /* Pods_MyCloudMusic_MyCloudMusicUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6083646D289AD4A7004B95AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60836449289AD4A6004B95AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60836450289AD4A6004B95AF;
+			remoteInfo = MyCloudMusic;
+		};
+		60836477289AD4A7004B95AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60836449289AD4A6004B95AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60836450289AD4A6004B95AF;
+			remoteInfo = MyCloudMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07CD075FFC4CEC12134159E0 /* Pods-MyCloudMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.release.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.release.xcconfig"; sourceTree = "<group>"; };
+		12DF5A332AB95DEBD98C5D3E /* Pods-MyCloudMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.debug.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		2433FE31AA13AFAF34DD9D63 /* Pods-MyCloudMusic-MyCloudMusicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic-MyCloudMusicUITests.release.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic-MyCloudMusicUITests/Pods-MyCloudMusic-MyCloudMusicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		600F03AF28BBAC94007F10F8 /* BaseMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseMainController.h; sourceTree = "<group>"; };
+		600F03B028BBAC94007F10F8 /* BaseMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseMainController.m; sourceTree = "<group>"; };
+		600F03B328BBB18D007F10F8 /* SuperWebController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperWebController.h; sourceTree = "<group>"; };
+		600F03B428BBB18D007F10F8 /* SuperWebController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperWebController.m; sourceTree = "<group>"; };
+		6010428228A94CED00A8B4BD /* SheetGroupCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SheetGroupCell.h; sourceTree = "<group>"; };
+		6010428328A94CED00A8B4BD /* SheetGroupCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SheetGroupCell.m; sourceTree = "<group>"; };
+		6010428528A94DF500A8B4BD /* SheetData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SheetData.h; sourceTree = "<group>"; };
+		6010428628A94DF500A8B4BD /* SheetData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SheetData.m; sourceTree = "<group>"; };
+		6010428A28A94E9500A8B4BD /* Sheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sheet.h; sourceTree = "<group>"; };
+		6010428B28A94E9500A8B4BD /* Sheet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sheet.m; sourceTree = "<group>"; };
+		601AFA1B289F8D10000EB528 /* DefaultRepository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultRepository.h; sourceTree = "<group>"; };
+		601AFA1C289F8D10000EB528 /* DefaultRepository.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultRepository.m; sourceTree = "<group>"; };
+		601AFA1F289FA0E0000EB528 /* PlaceholderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceholderView.h; sourceTree = "<group>"; };
+		601AFA20289FA0E0000EB528 /* PlaceholderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceholderView.m; sourceTree = "<group>"; };
+		601AFA24289FA1F9000EB528 /* StringUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
+		601AFA25289FA1F9000EB528 /* StringUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringUtil.m; sourceTree = "<group>"; };
+		601AFA29289FA40C000EB528 /* SuperToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperToast.h; sourceTree = "<group>"; };
+		601AFA2A289FA40C000EB528 /* SuperToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperToast.m; sourceTree = "<group>"; };
+		601AFA2C289FA806000EB528 /* TipUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipUtil.h; sourceTree = "<group>"; };
+		601AFA2D289FA806000EB528 /* TipUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipUtil.m; sourceTree = "<group>"; };
+		601AFA31289FC13D000EB528 /* DiscoveryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoveryController.h; sourceTree = "<group>"; };
+		601AFA32289FC13D000EB528 /* DiscoveryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoveryController.m; sourceTree = "<group>"; };
+		601AFA36289FC1B3000EB528 /* VideoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoController.h; sourceTree = "<group>"; };
+		601AFA37289FC1B3000EB528 /* VideoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoController.m; sourceTree = "<group>"; };
+		601AFA3C289FC208000EB528 /* MeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeController.h; sourceTree = "<group>"; };
+		601AFA3D289FC208000EB528 /* MeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeController.m; sourceTree = "<group>"; };
+		601AFA40289FC25B000EB528 /* FeedController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedController.h; sourceTree = "<group>"; };
+		601AFA41289FC25B000EB528 /* FeedController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedController.m; sourceTree = "<group>"; };
+		601AFA46289FC2A1000EB528 /* RoomController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoomController.h; sourceTree = "<group>"; };
+		601AFA47289FC2A1000EB528 /* RoomController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomController.m; sourceTree = "<group>"; };
+		601AFA4B289FC305000EB528 /* MainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		601AFA4C289FC305000EB528 /* MainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		601AFA4E289FC672000EB528 /* UIImage+SuperUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+SuperUI.h"; sourceTree = "<group>"; };
+		601AFA4F289FC672000EB528 /* UIImage+SuperUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SuperUI.m"; sourceTree = "<group>"; };
+		601AFA54289FEDE1000EB528 /* Ad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ad.h; sourceTree = "<group>"; };
+		601AFA55289FEDE1000EB528 /* Ad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ad.m; sourceTree = "<group>"; };
+		601AFA59289FEE95000EB528 /* BannerData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerData.h; sourceTree = "<group>"; };
+		601AFA5A289FEE95000EB528 /* BannerData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerData.m; sourceTree = "<group>"; };
+		601AFA61289FF4E9000EB528 /* BaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		601AFA62289FF4E9000EB528 /* BaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		601AFA64289FF67D000EB528 /* BannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerCell.h; sourceTree = "<group>"; };
+		601AFA65289FF67D000EB528 /* BannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerCell.m; sourceTree = "<group>"; };
+		601AFA6728A005BB000EB528 /* ResourceUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResourceUtil.h; sourceTree = "<group>"; };
+		601AFA6828A005BB000EB528 /* ResourceUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResourceUtil.m; sourceTree = "<group>"; };
+		6022784C28BA782300273A49 /* ImageUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageUtil.h; sourceTree = "<group>"; };
+		6022784D28BA782300273A49 /* ImageUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
+		6022790B28BB407400273A49 /* SongGroupCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongGroupCell.h; sourceTree = "<group>"; };
+		6022790C28BB407400273A49 /* SongGroupCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongGroupCell.m; sourceTree = "<group>"; };
+		6022790E28BB418100273A49 /* SongData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongData.h; sourceTree = "<group>"; };
+		6022790F28BB418100273A49 /* SongData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongData.m; sourceTree = "<group>"; };
+		6022791528BB420C00273A49 /* Song.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		6022791628BB420C00273A49 /* Song.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		6022791828BB440100273A49 /* DiscoverySongCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverySongCell.h; sourceTree = "<group>"; };
+		6022791928BB440100273A49 /* DiscoverySongCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverySongCell.m; sourceTree = "<group>"; };
+		6022791B28BB4C5B00273A49 /* BaseTableViewHeaderFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		6022791C28BB4C5B00273A49 /* BaseTableViewHeaderFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		6022792028BB52E800273A49 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		6022792128BB52E800273A49 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		6039398128B2263100D9105D /* itemTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = itemTitleView.h; sourceTree = "<group>"; };
+		6039398228B2263100D9105D /* itemTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = itemTitleView.m; sourceTree = "<group>"; };
+		603939E328B24D6E00D9105D /* SheetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SheetCell.h; sourceTree = "<group>"; };
+		603939E428B24D6E00D9105D /* SheetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SheetCell.m; sourceTree = "<group>"; };
+		603939E628B24D8F00D9105D /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		603939E728B24D8F00D9105D /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
+		60836451289AD4A6004B95AF /* MyCloudMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCloudMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60836454289AD4A6004B95AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60836455289AD4A6004B95AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6083645A289AD4A6004B95AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6083645B289AD4A6004B95AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60836460289AD4A7004B95AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60836463289AD4A7004B95AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60836465289AD4A7004B95AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60836466289AD4A7004B95AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6083646C289AD4A7004B95AF /* MyCloudMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCloudMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60836470289AD4A7004B95AF /* MyCloudMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCloudMusicTests.m; sourceTree = "<group>"; };
+		60836476289AD4A7004B95AF /* MyCloudMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCloudMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6083647A289AD4A7004B95AF /* MyCloudMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCloudMusicUITests.m; sourceTree = "<group>"; };
+		6083647C289AD4A7004B95AF /* MyCloudMusicUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCloudMusicUITestsLaunchTests.m; sourceTree = "<group>"; };
+		6083648C289AD660004B95AF /* SplashController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashController.h; sourceTree = "<group>"; };
+		6083648D289AD660004B95AF /* SplashController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashController.m; sourceTree = "<group>"; };
+		60836492289ADAC2004B95AF /* SuperdateUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperdateUtil.h; sourceTree = "<group>"; };
+		60836493289ADAC2004B95AF /* SuperdateUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperdateUtil.m; sourceTree = "<group>"; };
+		6083649A289ADC4F004B95AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6083649C289ADC65004B95AF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		6083649D289ADC65004B95AF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		608364A1289ADDCA004B95AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		608364A3289ADDD0004B95AF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		608364FB289B6F82004B95AF /* R.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R.h; sourceTree = SOURCE_ROOT; };
+		608364FC289B6F82004B95AF /* R.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R.m; sourceTree = SOURCE_ROOT; };
+		608EB3A228A00D0500D40463 /* BannerClickEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerClickEvent.h; sourceTree = "<group>"; };
+		608EB3A328A00D0500D40463 /* BannerClickEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerClickEvent.m; sourceTree = "<group>"; };
+		608EB3A628A0142E00D40463 /* UIView+SuperUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SuperUI.h"; sourceTree = "<group>"; };
+		608EB3A728A0142E00D40463 /* UIView+SuperUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SuperUI.m"; sourceTree = "<group>"; };
+		608EB3A928A08A1200D40463 /* DiscoveryButtonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoveryButtonCell.h; sourceTree = "<group>"; };
+		608EB3AA28A08A1200D40463 /* DiscoveryButtonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoveryButtonCell.m; sourceTree = "<group>"; };
+		608EB3AC28A08B8900D40463 /* IconTitleButtonData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconTitleButtonData.h; sourceTree = "<group>"; };
+		608EB3AD28A08B8900D40463 /* IconTitleButtonData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconTitleButtonData.m; sourceTree = "<group>"; };
+		608EB3AF28A08BC500D40463 /* ButtonData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonData.h; sourceTree = "<group>"; };
+		608EB3B028A08BC500D40463 /* ButtonData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonData.m; sourceTree = "<group>"; };
+		608EB3B328A08E2200D40463 /* DiscoveryButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoveryButtonView.h; sourceTree = "<group>"; };
+		608EB3B428A08E2200D40463 /* DiscoveryButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoveryButtonView.m; sourceTree = "<group>"; };
+		60B64365289E5A4F00A4F66D /* ViewFactoryUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewFactoryUtil.h; sourceTree = "<group>"; };
+		60B64366289E5A4F00A4F66D /* ViewFactoryUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewFactoryUtil.m; sourceTree = "<group>"; };
+		60B64368289E5C0B00A4F66D /* constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constant.h; sourceTree = "<group>"; };
+		60B64369289E8BD600A4F66D /* DefaultPreferenceUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultPreferenceUtil.h; sourceTree = "<group>"; };
+		60B6436A289E8BD600A4F66D /* DefaultPreferenceUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultPreferenceUtil.m; sourceTree = "<group>"; };
+		60B6436C289E8EB300A4F66D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		60B6436F289E903100A4F66D /* GuideController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuideController.h; sourceTree = "<group>"; };
+		60B64370289E903100A4F66D /* GuideController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuideController.m; sourceTree = "<group>"; };
+		60B64372289EB2CC00A4F66D /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		60B64373289EB2CC00A4F66D /* Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
+		60B64376289EC22D00A4F66D /* MSNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNetwork.m; sourceTree = "<group>"; };
+		60B64377289EC22D00A4F66D /* MSNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNetwork.h; sourceTree = "<group>"; };
+		60B6437A289ECF0B00A4F66D /* SuperHttpUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperHttpUtil.h; sourceTree = "<group>"; };
+		60B6437B289ECF0B00A4F66D /* SuperHttpUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperHttpUtil.m; sourceTree = "<group>"; };
+		60B64380289ED07300A4F66D /* BaseResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseResponse.h; sourceTree = "<group>"; };
+		60B64381289ED07300A4F66D /* BaseResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseResponse.m; sourceTree = "<group>"; };
+		60B64384289ED13000A4F66D /* SuperBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperBase.h; sourceTree = "<group>"; };
+		60B64385289ED13000A4F66D /* SuperBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperBase.m; sourceTree = "<group>"; };
+		60B64387289ED14700A4F66D /* Meta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Meta.h; sourceTree = "<group>"; };
+		60B64388289ED14700A4F66D /* Meta.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meta.m; sourceTree = "<group>"; };
+		60B6438B289ED97600A4F66D /* SuperBaseId.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperBaseId.h; sourceTree = "<group>"; };
+		60B6438C289ED97600A4F66D /* SuperBaseId.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperBaseId.m; sourceTree = "<group>"; };
+		60B6438E289F79C800A4F66D /* SuperCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperCommon.h; sourceTree = "<group>"; };
+		60B6438F289F79C800A4F66D /* SuperCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCommon.m; sourceTree = "<group>"; };
+		60B64391289F7A7800A4F66D /* Video.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		60B64392289F7A7800A4F66D /* Video.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		60E377B828BB75E9005EDCF0 /* DiscoveryFooterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoveryFooterCell.h; sourceTree = "<group>"; };
+		60E377B928BB75E9005EDCF0 /* DiscoveryFooterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoveryFooterCell.m; sourceTree = "<group>"; };
+		60E377BB28BB7982005EDCF0 /* FooterData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FooterData.h; sourceTree = "<group>"; };
+		60E377BC28BB7982005EDCF0 /* FooterData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FooterData.m; sourceTree = "<group>"; };
+		60E377BF28BB7B61005EDCF0 /* ClickEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClickEvent.h; sourceTree = "<group>"; };
+		60E377C028BB7B61005EDCF0 /* ClickEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickEvent.m; sourceTree = "<group>"; };
+		60E377C328BB7E70005EDCF0 /* SuperToolbarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperToolbarView.h; sourceTree = "<group>"; };
+		60E377C428BB7E70005EDCF0 /* SuperToolbarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperToolbarView.m; sourceTree = "<group>"; };
+		60E377C628BB7FE9005EDCF0 /* BaseTitleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTitleController.h; sourceTree = "<group>"; };
+		60E377C728BB7FE9005EDCF0 /* BaseTitleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTitleController.m; sourceTree = "<group>"; };
+		60EB7922289CC14900477CD5 /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		60EB7923289CC14900477CD5 /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		60EB7925289CC17B00477CD5 /* UIColor+SuperUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+SuperUI.h"; sourceTree = "<group>"; };
+		60EB7926289CC17B00477CD5 /* UIColor+SuperUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SuperUI.m"; sourceTree = "<group>"; };
+		60EB792A289CC20600477CD5 /* UIColor+config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+config.h"; sourceTree = "<group>"; };
+		60EB792B289CC20600477CD5 /* UIColor+config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+config.m"; sourceTree = "<group>"; };
+		60EB792D289CC28800477CD5 /* UIColor+Theme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Theme.h"; sourceTree = "<group>"; };
+		60EB792E289CC28800477CD5 /* UIColor+Theme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Theme.m"; sourceTree = "<group>"; };
+		60EB798C289E1DD800477CD5 /* BaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		60EB798D289E1DD800477CD5 /* BaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		60EB798F289E1DEE00477CD5 /* BaseCommonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCommonController.h; sourceTree = "<group>"; };
+		60EB7990289E1DEE00477CD5 /* BaseCommonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCommonController.m; sourceTree = "<group>"; };
+		60EB7992289E1E0C00477CD5 /* BaseLogicController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseLogicController.h; sourceTree = "<group>"; };
+		60EB7993289E1E0C00477CD5 /* BaseLogicController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseLogicController.m; sourceTree = "<group>"; };
+		60EB7995289E55CB00477CD5 /* TermServiceDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TermServiceDialogController.h; sourceTree = "<group>"; };
+		60EB7996289E55CB00477CD5 /* TermServiceDialogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermServiceDialogController.m; sourceTree = "<group>"; };
+		6EBFE855497647374A5AB61D /* Pods-MyCloudMusicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusicTests.debug.xcconfig"; path = "Target Support Files/Pods-MyCloudMusicTests/Pods-MyCloudMusicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A01AE0EDAE061D31D05A9B0E /* Pods-MyCloudMusic-MyCloudMusicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic-MyCloudMusicUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic-MyCloudMusicUITests/Pods-MyCloudMusic-MyCloudMusicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B39518CB2A7EFC26AD2CC5B6 /* Pods_MyCloudMusicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCloudMusicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEC24E5DC7D1CF6EA97E774 /* Pods-MyCloudMusicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusicTests.release.xcconfig"; path = "Target Support Files/Pods-MyCloudMusicTests/Pods-MyCloudMusicTests.release.xcconfig"; sourceTree = "<group>"; };
+		D292B7AC1EDD18E492AF14C6 /* Pods_MyCloudMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCloudMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E700DD546B16889305E30159 /* Pods_MyCloudMusic_MyCloudMusicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCloudMusic_MyCloudMusicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6083644E289AD4A6004B95AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C435DB52F2E667091BDE26 /* Pods_MyCloudMusic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60836469289AD4A7004B95AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563D400203E28E12E7436B7E /* Pods_MyCloudMusicTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60836473289AD4A7004B95AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723614C0D745FA9F5C3784D6 /* Pods_MyCloudMusic_MyCloudMusicUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43577BADD516CDE4CEDB80EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D292B7AC1EDD18E492AF14C6 /* Pods_MyCloudMusic.framework */,
+				E700DD546B16889305E30159 /* Pods_MyCloudMusic_MyCloudMusicUITests.framework */,
+				B39518CB2A7EFC26AD2CC5B6 /* Pods_MyCloudMusicTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		600F03B228BBB172007F10F8 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				600F03B328BBB18D007F10F8 /* SuperWebController.h */,
+				600F03B428BBB18D007F10F8 /* SuperWebController.m */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		6010428828A94E6500A8B4BD /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				603939E228B24D3400D9105D /* Cell */,
+				6010428928A94E7300A8B4BD /* Model */,
+			);
+			path = Sheet;
+			sourceTree = "<group>";
+		};
+		6010428928A94E7300A8B4BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6010428A28A94E9500A8B4BD /* Sheet.h */,
+				6010428B28A94E9500A8B4BD /* Sheet.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		601AFA1A289F8CCC000EB528 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA1B289F8D10000EB528 /* DefaultRepository.h */,
+				601AFA1C289F8D10000EB528 /* DefaultRepository.m */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		601AFA1E289FA0AE000EB528 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA1F289FA0E0000EB528 /* PlaceholderView.h */,
+				601AFA20289FA0E0000EB528 /* PlaceholderView.m */,
+				6022791B28BB4C5B00273A49 /* BaseTableViewHeaderFooterView.h */,
+				6022791C28BB4C5B00273A49 /* BaseTableViewHeaderFooterView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		601AFA22289FA1DA000EB528 /* SuperOC */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA23289FA1E5000EB528 /* util */,
+			);
+			path = SuperOC;
+			sourceTree = "<group>";
+		};
+		601AFA23289FA1E5000EB528 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA24289FA1F9000EB528 /* StringUtil.h */,
+				601AFA25289FA1F9000EB528 /* StringUtil.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		601AFA28289FA3F6000EB528 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA29289FA40C000EB528 /* SuperToast.h */,
+				601AFA2A289FA40C000EB528 /* SuperToast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		601AFA2F289FBFEA000EB528 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				608EB3B228A08DFA00D40463 /* View */,
+				601AFA5C289FF448000EB528 /* Cell */,
+				601AFA58289FEE75000EB528 /* Controller */,
+				601AFA57289FEE6B000EB528 /* Model */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		601AFA30289FBFF6000EB528 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA3F289FC231000EB528 /* Controller */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		601AFA35289FC1A5000EB528 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA36289FC1B3000EB528 /* VideoController.h */,
+				601AFA37289FC1B3000EB528 /* VideoController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		601AFA39289FC1DE000EB528 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA3B289FC1E7000EB528 /* Controller */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		601AFA3B289FC1E7000EB528 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA3C289FC208000EB528 /* MeController.h */,
+				601AFA3D289FC208000EB528 /* MeController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		601AFA3F289FC231000EB528 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA40289FC25B000EB528 /* FeedController.h */,
+				601AFA41289FC25B000EB528 /* FeedController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		601AFA43289FC27C000EB528 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA44289FC28D000EB528 /* Controller */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		601AFA44289FC28D000EB528 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA46289FC2A1000EB528 /* RoomController.h */,
+				601AFA47289FC2A1000EB528 /* RoomController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		601AFA49289FC2E8000EB528 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA4A289FC2F2000EB528 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		601AFA4A289FC2F2000EB528 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA4B289FC305000EB528 /* MainController.h */,
+				601AFA4C289FC305000EB528 /* MainController.m */,
+				600F03AF28BBAC94007F10F8 /* BaseMainController.h */,
+				600F03B028BBAC94007F10F8 /* BaseMainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		601AFA51289FC67C000EB528 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA4E289FC672000EB528 /* UIImage+SuperUI.h */,
+				601AFA4F289FC672000EB528 /* UIImage+SuperUI.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		601AFA52289FEDC2000EB528 /* Ad */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA53289FEDC8000EB528 /* Model */,
+			);
+			path = Ad;
+			sourceTree = "<group>";
+		};
+		601AFA53289FEDC8000EB528 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				608EB3A128A00A0C00D40463 /* Event */,
+				601AFA54289FEDE1000EB528 /* Ad.h */,
+				601AFA55289FEDE1000EB528 /* Ad.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		601AFA57289FEE6B000EB528 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA59289FEE95000EB528 /* BannerData.h */,
+				601AFA5A289FEE95000EB528 /* BannerData.m */,
+				608EB3AC28A08B8900D40463 /* IconTitleButtonData.h */,
+				608EB3AD28A08B8900D40463 /* IconTitleButtonData.m */,
+				608EB3AF28A08BC500D40463 /* ButtonData.h */,
+				608EB3B028A08BC500D40463 /* ButtonData.m */,
+				6010428528A94DF500A8B4BD /* SheetData.h */,
+				6010428628A94DF500A8B4BD /* SheetData.m */,
+				6022790E28BB418100273A49 /* SongData.h */,
+				6022790F28BB418100273A49 /* SongData.m */,
+				60E377BB28BB7982005EDCF0 /* FooterData.h */,
+				60E377BC28BB7982005EDCF0 /* FooterData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		601AFA58289FEE75000EB528 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA31289FC13D000EB528 /* DiscoveryController.h */,
+				601AFA32289FC13D000EB528 /* DiscoveryController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		601AFA5C289FF448000EB528 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				60E377BE28BB7B49005EDCF0 /* Event */,
+				601AFA64289FF67D000EB528 /* BannerCell.h */,
+				601AFA65289FF67D000EB528 /* BannerCell.m */,
+				608EB3A928A08A1200D40463 /* DiscoveryButtonCell.h */,
+				608EB3AA28A08A1200D40463 /* DiscoveryButtonCell.m */,
+				6010428228A94CED00A8B4BD /* SheetGroupCell.h */,
+				6010428328A94CED00A8B4BD /* SheetGroupCell.m */,
+				6022790B28BB407400273A49 /* SongGroupCell.h */,
+				6022790C28BB407400273A49 /* SongGroupCell.m */,
+				6022791828BB440100273A49 /* DiscoverySongCell.h */,
+				6022791928BB440100273A49 /* DiscoverySongCell.m */,
+				60E377B828BB75E9005EDCF0 /* DiscoveryFooterCell.h */,
+				60E377B928BB75E9005EDCF0 /* DiscoveryFooterCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		601AFA60289FF4CF000EB528 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA61289FF4E9000EB528 /* BaseTableViewCell.h */,
+				601AFA62289FF4E9000EB528 /* BaseTableViewCell.m */,
+				603939E628B24D8F00D9105D /* BaseCollectionViewCell.h */,
+				603939E728B24D8F00D9105D /* BaseCollectionViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6022791128BB41C600273A49 /* Song */ = {
+			isa = PBXGroup;
+			children = (
+				6022791428BB41DF00273A49 /* Model */,
+				6022791228BB41CF00273A49 /* Cell */,
+			);
+			path = Song;
+			sourceTree = "<group>";
+		};
+		6022791228BB41CF00273A49 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6022791428BB41DF00273A49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6022791528BB420C00273A49 /* Song.h */,
+				6022791628BB420C00273A49 /* Song.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6022791E28BB52C900273A49 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				6022791F28BB52D000273A49 /* Model */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		6022791F28BB52D000273A49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6022792028BB52E800273A49 /* User.h */,
+				6022792128BB52E800273A49 /* User.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		603939E228B24D3400D9105D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				603939E328B24D6E00D9105D /* SheetCell.h */,
+				603939E428B24D6E00D9105D /* SheetCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		60836448289AD4A6004B95AF = {
+			isa = PBXGroup;
+			children = (
+				60836453289AD4A6004B95AF /* MyCloudMusic */,
+				6083646F289AD4A7004B95AF /* MyCloudMusicTests */,
+				60836479289AD4A7004B95AF /* MyCloudMusicUITests */,
+				60836452289AD4A6004B95AF /* Products */,
+				EFD0967630673CEA42118001 /* Pods */,
+				43577BADD516CDE4CEDB80EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		60836452289AD4A6004B95AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60836451289AD4A6004B95AF /* MyCloudMusic.app */,
+				6083646C289AD4A7004B95AF /* MyCloudMusicTests.xctest */,
+				60836476289AD4A7004B95AF /* MyCloudMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60836453289AD4A6004B95AF /* MyCloudMusic */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA60289FF4CF000EB528 /* Cell */,
+				601AFA1E289FA0AE000EB528 /* View */,
+				601AFA1A289F8CCC000EB528 /* Repository */,
+				60B6437E289ED05500A4F66D /* Model */,
+				60B64379289ECEF200A4F66D /* NetWork */,
+				60B64364289E5A3800A4F66D /* util */,
+				60EB7987289E1D6E00477CD5 /* Controller */,
+				60EB7928289CC1D100477CD5 /* Config */,
+				6083648F289ADA6F004B95AF /* Vender */,
+				60836489289AD5FE004B95AF /* Component */,
+				60836454289AD4A6004B95AF /* AppDelegate.h */,
+				60836455289AD4A6004B95AF /* AppDelegate.m */,
+				6083645A289AD4A6004B95AF /* ViewController.h */,
+				6083645B289AD4A6004B95AF /* ViewController.m */,
+				60836460289AD4A7004B95AF /* Assets.xcassets */,
+				60836462289AD4A7004B95AF /* LaunchScreen.storyboard */,
+				60836465289AD4A7004B95AF /* Info.plist */,
+				60836466289AD4A7004B95AF /* main.m */,
+				608364FB289B6F82004B95AF /* R.h */,
+				608364FC289B6F82004B95AF /* R.m */,
+				6083649B289ADC4F004B95AF /* Localizable.strings */,
+				608364A2289ADDCA004B95AF /* InfoPlist.strings */,
+				60B6436C289E8EB300A4F66D /* PrefixHeader.pch */,
+			);
+			path = MyCloudMusic;
+			sourceTree = "<group>";
+		};
+		6083646F289AD4A7004B95AF /* MyCloudMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				60836470289AD4A7004B95AF /* MyCloudMusicTests.m */,
+			);
+			path = MyCloudMusicTests;
+			sourceTree = "<group>";
+		};
+		60836479289AD4A7004B95AF /* MyCloudMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6083647A289AD4A7004B95AF /* MyCloudMusicUITests.m */,
+				6083647C289AD4A7004B95AF /* MyCloudMusicUITestsLaunchTests.m */,
+			);
+			path = MyCloudMusicUITests;
+			sourceTree = "<group>";
+		};
+		60836489289AD5FE004B95AF /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				6022791E28BB52C900273A49 /* User */,
+				6022791128BB41C600273A49 /* Song */,
+				6010428828A94E6500A8B4BD /* Sheet */,
+				601AFA52289FEDC2000EB528 /* Ad */,
+				601AFA49289FC2E8000EB528 /* Main */,
+				601AFA43289FC27C000EB528 /* Room */,
+				601AFA39289FC1DE000EB528 /* Me */,
+				601AFA30289FBFF6000EB528 /* Feed */,
+				601AFA2F289FBFEA000EB528 /* Discovery */,
+				60B6438A289ED91800A4F66D /* Video */,
+				60B6436D289E900D00A4F66D /* Guide */,
+				6083648A289AD624004B95AF /* Splash */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		6083648A289AD624004B95AF /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				6083648B289AD643004B95AF /* Controller */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		6083648B289AD643004B95AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6083648C289AD660004B95AF /* SplashController.h */,
+				6083648D289AD660004B95AF /* SplashController.m */,
+				60EB7995289E55CB00477CD5 /* TermServiceDialogController.h */,
+				60EB7996289E55CB00477CD5 /* TermServiceDialogController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6083648F289ADA6F004B95AF /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				608EB3A528A0140C00D40463 /* UIView */,
+				601AFA22289FA1DA000EB528 /* SuperOC */,
+				60836490289ADA79004B95AF /* SuperUI */,
+				60B64375289EC22D00A4F66D /* MSNetwork */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		60836490289ADA79004B95AF /* SuperUI */ = {
+			isa = PBXGroup;
+			children = (
+				60FCB14D290442B5007E708C /* Log */,
+				600F03B228BBB172007F10F8 /* Web */,
+				60E377C228BB7E45005EDCF0 /* ToolbarView */,
+				601AFA51289FC67C000EB528 /* Image */,
+				601AFA28289FA3F6000EB528 /* Toast */,
+				60EB7921289CC12700477CD5 /* Color */,
+				60836491289ADA8D004B95AF /* Date */,
+			);
+			path = SuperUI;
+			sourceTree = "<group>";
+		};
+		60836491289ADA8D004B95AF /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				60836492289ADAC2004B95AF /* SuperdateUtil.h */,
+				60836493289ADAC2004B95AF /* SuperdateUtil.m */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		608EB3A128A00A0C00D40463 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				608EB3A228A00D0500D40463 /* BannerClickEvent.h */,
+				608EB3A328A00D0500D40463 /* BannerClickEvent.m */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		608EB3A528A0140C00D40463 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				608EB3A628A0142E00D40463 /* UIView+SuperUI.h */,
+				608EB3A728A0142E00D40463 /* UIView+SuperUI.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		608EB3B228A08DFA00D40463 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				608EB3B328A08E2200D40463 /* DiscoveryButtonView.h */,
+				608EB3B428A08E2200D40463 /* DiscoveryButtonView.m */,
+				6039398128B2263100D9105D /* itemTitleView.h */,
+				6039398228B2263100D9105D /* itemTitleView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60B64364289E5A3800A4F66D /* util */ = {
+			isa = PBXGroup;
+			children = (
+				60B64365289E5A4F00A4F66D /* ViewFactoryUtil.h */,
+				60B64366289E5A4F00A4F66D /* ViewFactoryUtil.m */,
+				60B64368289E5C0B00A4F66D /* constant.h */,
+				60B64369289E8BD600A4F66D /* DefaultPreferenceUtil.h */,
+				60B6436A289E8BD600A4F66D /* DefaultPreferenceUtil.m */,
+				601AFA2C289FA806000EB528 /* TipUtil.h */,
+				601AFA2D289FA806000EB528 /* TipUtil.m */,
+				601AFA6728A005BB000EB528 /* ResourceUtil.h */,
+				601AFA6828A005BB000EB528 /* ResourceUtil.m */,
+				6022784C28BA782300273A49 /* ImageUtil.h */,
+				6022784D28BA782300273A49 /* ImageUtil.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		60B6436D289E900D00A4F66D /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				60B6436E289E901600A4F66D /* Controller */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		60B6436E289E901600A4F66D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				60B6436F289E903100A4F66D /* GuideController.h */,
+				60B64370289E903100A4F66D /* GuideController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		60B64375289EC22D00A4F66D /* MSNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				60B64376289EC22D00A4F66D /* MSNetwork.m */,
+				60B64377289EC22D00A4F66D /* MSNetwork.h */,
+			);
+			path = MSNetwork;
+			sourceTree = "<group>";
+		};
+		60B64379289ECEF200A4F66D /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				60B6437A289ECF0B00A4F66D /* SuperHttpUtil.h */,
+				60B6437B289ECF0B00A4F66D /* SuperHttpUtil.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		60B6437E289ED05500A4F66D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60B6437F289ED05E00A4F66D /* Response */,
+				60B64384289ED13000A4F66D /* SuperBase.h */,
+				60B64385289ED13000A4F66D /* SuperBase.m */,
+				60B6438B289ED97600A4F66D /* SuperBaseId.h */,
+				60B6438C289ED97600A4F66D /* SuperBaseId.m */,
+				60B6438E289F79C800A4F66D /* SuperCommon.h */,
+				60B6438F289F79C800A4F66D /* SuperCommon.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		60B6437F289ED05E00A4F66D /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				60B64380289ED07300A4F66D /* BaseResponse.h */,
+				60B64381289ED07300A4F66D /* BaseResponse.m */,
+				60B64387289ED14700A4F66D /* Meta.h */,
+				60B64388289ED14700A4F66D /* Meta.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		60B6438A289ED91800A4F66D /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				601AFA35289FC1A5000EB528 /* Controller */,
+				60B64394289F7ACF00A4F66D /* Model */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		60B64394289F7ACF00A4F66D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60B64391289F7A7800A4F66D /* Video.h */,
+				60B64392289F7A7800A4F66D /* Video.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		60E377BE28BB7B49005EDCF0 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				60E377BF28BB7B61005EDCF0 /* ClickEvent.h */,
+				60E377C028BB7B61005EDCF0 /* ClickEvent.m */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		60E377C228BB7E45005EDCF0 /* ToolbarView */ = {
+			isa = PBXGroup;
+			children = (
+				60E377C328BB7E70005EDCF0 /* SuperToolbarView.h */,
+				60E377C428BB7E70005EDCF0 /* SuperToolbarView.m */,
+			);
+			path = ToolbarView;
+			sourceTree = "<group>";
+		};
+		60EB7921289CC12700477CD5 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				60EB7922289CC14900477CD5 /* UIColor+Hex.h */,
+				60EB7923289CC14900477CD5 /* UIColor+Hex.m */,
+				60EB7925289CC17B00477CD5 /* UIColor+SuperUI.h */,
+				60EB7926289CC17B00477CD5 /* UIColor+SuperUI.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		60EB7928289CC1D100477CD5 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				60EB7929289CC1E900477CD5 /* QMUI */,
+				60B64372289EB2CC00A4F66D /* Config.h */,
+				60B64373289EB2CC00A4F66D /* Config.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		60EB7929289CC1E900477CD5 /* QMUI */ = {
+			isa = PBXGroup;
+			children = (
+				60EB792A289CC20600477CD5 /* UIColor+config.h */,
+				60EB792B289CC20600477CD5 /* UIColor+config.m */,
+				60EB792D289CC28800477CD5 /* UIColor+Theme.h */,
+				60EB792E289CC28800477CD5 /* UIColor+Theme.m */,
+			);
+			path = QMUI;
+			sourceTree = "<group>";
+		};
+		60EB7987289E1D6E00477CD5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				60EB798C289E1DD800477CD5 /* BaseController.h */,
+				60EB798D289E1DD800477CD5 /* BaseController.m */,
+				60EB798F289E1DEE00477CD5 /* BaseCommonController.h */,
+				60EB7990289E1DEE00477CD5 /* BaseCommonController.m */,
+				60EB7992289E1E0C00477CD5 /* BaseLogicController.h */,
+				60EB7993289E1E0C00477CD5 /* BaseLogicController.m */,
+				60E377C628BB7FE9005EDCF0 /* BaseTitleController.h */,
+				60E377C728BB7FE9005EDCF0 /* BaseTitleController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		60FCB14D290442B5007E708C /* Log */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		EFD0967630673CEA42118001 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12DF5A332AB95DEBD98C5D3E /* Pods-MyCloudMusic.debug.xcconfig */,
+				07CD075FFC4CEC12134159E0 /* Pods-MyCloudMusic.release.xcconfig */,
+				A01AE0EDAE061D31D05A9B0E /* Pods-MyCloudMusic-MyCloudMusicUITests.debug.xcconfig */,
+				2433FE31AA13AFAF34DD9D63 /* Pods-MyCloudMusic-MyCloudMusicUITests.release.xcconfig */,
+				6EBFE855497647374A5AB61D /* Pods-MyCloudMusicTests.debug.xcconfig */,
+				BEEC24E5DC7D1CF6EA97E774 /* Pods-MyCloudMusicTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60836450289AD4A6004B95AF /* MyCloudMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60836480289AD4A7004B95AF /* Build configuration list for PBXNativeTarget "MyCloudMusic" */;
+			buildPhases = (
+				F723A89DB1DB92079CA7BCB0 /* [CP] Check Pods Manifest.lock */,
+				608364FA289B6F39004B95AF /* Run Script */,
+				6083644D289AD4A6004B95AF /* Sources */,
+				6083644E289AD4A6004B95AF /* Frameworks */,
+				6083644F289AD4A6004B95AF /* Resources */,
+				73A8B13032440E26163D6C35 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCloudMusic;
+			productName = MyCloudMusic;
+			productReference = 60836451289AD4A6004B95AF /* MyCloudMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6083646B289AD4A7004B95AF /* MyCloudMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60836483289AD4A7004B95AF /* Build configuration list for PBXNativeTarget "MyCloudMusicTests" */;
+			buildPhases = (
+				E8343CA98A1BF5784C32803A /* [CP] Check Pods Manifest.lock */,
+				60836468289AD4A7004B95AF /* Sources */,
+				60836469289AD4A7004B95AF /* Frameworks */,
+				6083646A289AD4A7004B95AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6083646E289AD4A7004B95AF /* PBXTargetDependency */,
+			);
+			name = MyCloudMusicTests;
+			productName = MyCloudMusicTests;
+			productReference = 6083646C289AD4A7004B95AF /* MyCloudMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60836475289AD4A7004B95AF /* MyCloudMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60836486289AD4A7004B95AF /* Build configuration list for PBXNativeTarget "MyCloudMusicUITests" */;
+			buildPhases = (
+				1C26087ACE91FF12D5DE08B5 /* [CP] Check Pods Manifest.lock */,
+				60836472289AD4A7004B95AF /* Sources */,
+				60836473289AD4A7004B95AF /* Frameworks */,
+				60836474289AD4A7004B95AF /* Resources */,
+				4C45BBFC3612FB514E883DA4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60836478289AD4A7004B95AF /* PBXTargetDependency */,
+			);
+			name = MyCloudMusicUITests;
+			productName = MyCloudMusicUITests;
+			productReference = 60836476289AD4A7004B95AF /* MyCloudMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60836449289AD4A6004B95AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					60836450289AD4A6004B95AF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6083646B289AD4A7004B95AF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 60836450289AD4A6004B95AF;
+					};
+					60836475289AD4A7004B95AF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 60836450289AD4A6004B95AF;
+					};
+				};
+			};
+			buildConfigurationList = 6083644C289AD4A6004B95AF /* Build configuration list for PBXProject "MyCloudMusic" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 60836448289AD4A6004B95AF;
+			productRefGroup = 60836452289AD4A6004B95AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60836450289AD4A6004B95AF /* MyCloudMusic */,
+				6083646B289AD4A7004B95AF /* MyCloudMusicTests */,
+				60836475289AD4A7004B95AF /* MyCloudMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6083644F289AD4A6004B95AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60836464289AD4A7004B95AF /* LaunchScreen.storyboard in Resources */,
+				608364A0289ADDCA004B95AF /* InfoPlist.strings in Resources */,
+				60836499289ADC4F004B95AF /* Localizable.strings in Resources */,
+				60836461289AD4A7004B95AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6083646A289AD4A7004B95AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60836474289AD4A7004B95AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C26087ACE91FF12D5DE08B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyCloudMusic-MyCloudMusicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C45BBFC3612FB514E883DA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCloudMusic-MyCloudMusicUITests/Pods-MyCloudMusic-MyCloudMusicUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCloudMusic-MyCloudMusicUITests/Pods-MyCloudMusic-MyCloudMusicUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCloudMusic-MyCloudMusicUITests/Pods-MyCloudMusic-MyCloudMusicUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		608364FA289B6F39004B95AF /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/R.objc/Robjc\" -p \"$SRCROOT\" --skip-themes\n";
+		};
+		73A8B13032440E26163D6C35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8343CA98A1BF5784C32803A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyCloudMusicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F723A89DB1DB92079CA7BCB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyCloudMusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6083644D289AD4A6004B95AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601AFA4D289FC305000EB528 /* MainController.m in Sources */,
+				60E377BA28BB75E9005EDCF0 /* DiscoveryFooterCell.m in Sources */,
+				608364FD289B6F82004B95AF /* R.m in Sources */,
+				60EB7997289E55CB00477CD5 /* TermServiceDialogController.m in Sources */,
+				608EB3A428A00D0500D40463 /* BannerClickEvent.m in Sources */,
+				60EB7991289E1DEE00477CD5 /* BaseCommonController.m in Sources */,
+				601AFA2B289FA40C000EB528 /* SuperToast.m in Sources */,
+				60EB792F289CC28800477CD5 /* UIColor+Theme.m in Sources */,
+				601AFA2E289FA806000EB528 /* TipUtil.m in Sources */,
+				60E377C828BB7FE9005EDCF0 /* BaseTitleController.m in Sources */,
+				601AFA5B289FEE95000EB528 /* BannerData.m in Sources */,
+				60B64382289ED07300A4F66D /* BaseResponse.m in Sources */,
+				608EB3AB28A08A1200D40463 /* DiscoveryButtonCell.m in Sources */,
+				608EB3A828A0142E00D40463 /* UIView+SuperUI.m in Sources */,
+				60B6436B289E8BD600A4F66D /* DefaultPreferenceUtil.m in Sources */,
+				608EB3B528A08E2200D40463 /* DiscoveryButtonView.m in Sources */,
+				601AFA48289FC2A1000EB528 /* RoomController.m in Sources */,
+				60E377BD28BB7982005EDCF0 /* FooterData.m in Sources */,
+				601AFA63289FF4E9000EB528 /* BaseTableViewCell.m in Sources */,
+				601AFA26289FA1F9000EB528 /* StringUtil.m in Sources */,
+				60B64386289ED13000A4F66D /* SuperBase.m in Sources */,
+				60B6438D289ED97600A4F66D /* SuperBaseId.m in Sources */,
+				60EB7927289CC17B00477CD5 /* UIColor+SuperUI.m in Sources */,
+				601AFA33289FC13D000EB528 /* DiscoveryController.m in Sources */,
+				6039398328B2263100D9105D /* itemTitleView.m in Sources */,
+				601AFA50289FC672000EB528 /* UIImage+SuperUI.m in Sources */,
+				60B64371289E903100A4F66D /* GuideController.m in Sources */,
+				6010428C28A94E9500A8B4BD /* Sheet.m in Sources */,
+				60B64374289EB2CC00A4F66D /* Config.m in Sources */,
+				6022791028BB418100273A49 /* SongData.m in Sources */,
+				601AFA38289FC1B3000EB528 /* VideoController.m in Sources */,
+				601AFA42289FC25B000EB528 /* FeedController.m in Sources */,
+				6022791A28BB440100273A49 /* DiscoverySongCell.m in Sources */,
+				60E377C128BB7B61005EDCF0 /* ClickEvent.m in Sources */,
+				6083648E289AD660004B95AF /* SplashController.m in Sources */,
+				608EB3AE28A08B8900D40463 /* IconTitleButtonData.m in Sources */,
+				60836494289ADAC2004B95AF /* SuperdateUtil.m in Sources */,
+				60E377C528BB7E70005EDCF0 /* SuperToolbarView.m in Sources */,
+				601AFA1D289F8D10000EB528 /* DefaultRepository.m in Sources */,
+				6010428728A94DF500A8B4BD /* SheetData.m in Sources */,
+				6022791728BB420C00273A49 /* Song.m in Sources */,
+				608EB3B128A08BC500D40463 /* ButtonData.m in Sources */,
+				6010428428A94CED00A8B4BD /* SheetGroupCell.m in Sources */,
+				6022791D28BB4C5B00273A49 /* BaseTableViewHeaderFooterView.m in Sources */,
+				60EB798E289E1DD800477CD5 /* BaseController.m in Sources */,
+				6083645C289AD4A6004B95AF /* ViewController.m in Sources */,
+				60EB7924289CC14900477CD5 /* UIColor+Hex.m in Sources */,
+				6022792228BB52E800273A49 /* User.m in Sources */,
+				6022790D28BB407400273A49 /* SongGroupCell.m in Sources */,
+				601AFA6928A005BB000EB528 /* ResourceUtil.m in Sources */,
+				6022784E28BA782300273A49 /* ImageUtil.m in Sources */,
+				60EB792C289CC20600477CD5 /* UIColor+config.m in Sources */,
+				601AFA66289FF67D000EB528 /* BannerCell.m in Sources */,
+				60B64390289F79C800A4F66D /* SuperCommon.m in Sources */,
+				60836456289AD4A6004B95AF /* AppDelegate.m in Sources */,
+				600F03B128BBAC94007F10F8 /* BaseMainController.m in Sources */,
+				60836467289AD4A7004B95AF /* main.m in Sources */,
+				60B64367289E5A4F00A4F66D /* ViewFactoryUtil.m in Sources */,
+				603939E528B24D6E00D9105D /* SheetCell.m in Sources */,
+				60EB7994289E1E0C00477CD5 /* BaseLogicController.m in Sources */,
+				60B64389289ED14700A4F66D /* Meta.m in Sources */,
+				603939E828B24D8F00D9105D /* BaseCollectionViewCell.m in Sources */,
+				60B64378289EC22D00A4F66D /* MSNetwork.m in Sources */,
+				601AFA56289FEDE1000EB528 /* Ad.m in Sources */,
+				60B6437C289ECF0B00A4F66D /* SuperHttpUtil.m in Sources */,
+				600F03B528BBB18D007F10F8 /* SuperWebController.m in Sources */,
+				601AFA3E289FC208000EB528 /* MeController.m in Sources */,
+				601AFA21289FA0E0000EB528 /* PlaceholderView.m in Sources */,
+				60B64393289F7A7800A4F66D /* Video.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60836468289AD4A7004B95AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60836471289AD4A7004B95AF /* MyCloudMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60836472289AD4A7004B95AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6083647D289AD4A7004B95AF /* MyCloudMusicUITestsLaunchTests.m in Sources */,
+				6083647B289AD4A7004B95AF /* MyCloudMusicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6083646E289AD4A7004B95AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60836450289AD4A6004B95AF /* MyCloudMusic */;
+			targetProxy = 6083646D289AD4A7004B95AF /* PBXContainerItemProxy */;
+		};
+		60836478289AD4A7004B95AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60836450289AD4A6004B95AF /* MyCloudMusic */;
+			targetProxy = 60836477289AD4A7004B95AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60836462289AD4A7004B95AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60836463289AD4A7004B95AF /* Base */,
+				6083649C289ADC65004B95AF /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6083649B289ADC4F004B95AF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6083649A289ADC4F004B95AF /* en */,
+				6083649D289ADC65004B95AF /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		608364A2289ADDCA004B95AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				608364A1289ADDCA004B95AF /* en */,
+				608364A3289ADDD0004B95AF /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6083647E289AD4A7004B95AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6083647F289AD4A7004B95AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60836481289AD4A7004B95AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12DF5A332AB95DEBD98C5D3E /* Pods-MyCloudMusic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyCloudMusic/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyCloudMusic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = www.baidu.com.MyCloudMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		60836482289AD4A7004B95AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07CD075FFC4CEC12134159E0 /* Pods-MyCloudMusic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyCloudMusic/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyCloudMusic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = www.baidu.com.MyCloudMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		60836484289AD4A7004B95AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EBFE855497647374A5AB61D /* Pods-MyCloudMusicTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = www.baidu.com.MyCloudMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCloudMusic.app/MyCloudMusic";
+			};
+			name = Debug;
+		};
+		60836485289AD4A7004B95AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEEC24E5DC7D1CF6EA97E774 /* Pods-MyCloudMusicTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = www.baidu.com.MyCloudMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCloudMusic.app/MyCloudMusic";
+			};
+			name = Release;
+		};
+		60836487289AD4A7004B95AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A01AE0EDAE061D31D05A9B0E /* Pods-MyCloudMusic-MyCloudMusicUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = www.baidu.com.MyCloudMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyCloudMusic;
+			};
+			name = Debug;
+		};
+		60836488289AD4A7004B95AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2433FE31AA13AFAF34DD9D63 /* Pods-MyCloudMusic-MyCloudMusicUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = www.baidu.com.MyCloudMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyCloudMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6083644C289AD4A6004B95AF /* Build configuration list for PBXProject "MyCloudMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6083647E289AD4A7004B95AF /* Debug */,
+				6083647F289AD4A7004B95AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60836480289AD4A7004B95AF /* Build configuration list for PBXNativeTarget "MyCloudMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60836481289AD4A7004B95AF /* Debug */,
+				60836482289AD4A7004B95AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60836483289AD4A7004B95AF /* Build configuration list for PBXNativeTarget "MyCloudMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60836484289AD4A7004B95AF /* Debug */,
+				60836485289AD4A7004B95AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60836486289AD4A7004B95AF /* Build configuration list for PBXNativeTarget "MyCloudMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60836487289AD4A7004B95AF /* Debug */,
+				60836488289AD4A7004B95AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60836449289AD4A6004B95AF /* Project object */;
+}
